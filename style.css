@@ -1,0 +1,30 @@
+body{
+  background-color: gold;  
+}
+h1{
+    background-color:burlywood;
+    color:darkgreen;
+}
+#Show_Sketch{
+    float: right;
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 90px;
+    animation-name: I_like_trees;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top:  50px;
+
+}
+@keyframes I_like_trees{
+    from{box-shadow: 1px 1px 38px gray;}
+    to{
+        box-shadow: 1px 1px 38px white;
+    }
+}
+
